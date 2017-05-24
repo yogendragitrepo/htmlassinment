@@ -1,0 +1,68 @@
+body {
+	margin: 0px;
+}
+header{
+	height:70px;
+	background-color: #15c1e5;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.logo {
+	float: left;
+	display: block;
+	font-size: 1.5em;
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 25px;
+	margin-right: 80px;
+	margin-bottom: 25px;
+	margin-left: 80px;
+}
+.menu{
+	float: right;
+	text-align: center;
+
+}
+
+ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	width: 100px;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 26px 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.bgGreen {
+	background-color: #9bba1f;
+}
+.bgRed {
+	background-color: #f73f3f;
+}
+
+.bgyellow {
+	background-color: #ffa200;
+}
+
+.hero {
+	background: url("../images/computer-skills.jpg");
+	position: relative;
+	min-height: 450px;
+	height: 100vh;
+}
